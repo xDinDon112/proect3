@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e0e3e5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+naz {
+    text-align:center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.flashes li.success {
+    color: green;
+}
+
+.flashes li.danger {
+    color: red;
